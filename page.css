@@ -1,0 +1,76 @@
+/* General Reset and Body Styles */
+body {
+    background-color: darkblue;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Container */
+  .header {
+    display: flex;
+    align-items: center; /* Vertically centers items within the header */
+    padding: 0 12px; /* Padding for overall header spacing */
+    background-color: #333; /* Optional background color for the header */
+  }
+  
+  /* Heading Styles */
+  .heading {
+    color: white;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding-right: 12px; /* Space between heading and links */
+  }
+  
+  /* Header Links Container */
+  .header-links {
+    display: flex;
+    gap: 10px; /* Space between the links */
+  }
+  
+  /* Individual Link Styles */
+  .header-link {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none; /* Remove underline from links */
+    padding: 5px 10px; /* Optional padding for better spacing */
+  }
+  
+  /* Optional Link Hover Effect */
+  .header-link:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+  }
+  
+  /* Other Page Styles */
+  .description {
+    display: flex;
+    align-items: flex-start;
+    gap: 1px;
+    color: white;
+    font-size: 40px;
+    padding-left: 40px;
+    margin: 12px;
+  }
+  
+  #subtext {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    color: white;
+    font-size: 30px;
+    padding-left: 30px;
+    margin: 12px;
+  }
+  
+  .sign-up {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 10, 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 12px;
+  }
+  
